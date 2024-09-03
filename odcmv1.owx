@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/wsma9/ontologies/2023/5/odcmv1"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/odcmv1">
+    <Prefix name="" IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/odcmv1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Created by MA</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Actionability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Average_drop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Broadness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Chronology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Compactness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Completeness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Confidence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Consisitency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Correctness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Curiosity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Editability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#End_Goal_Target_Impact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Faithfulness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Feasibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Fidelity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Goodness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Interactivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Interestingness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Interpretability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Justifiability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Model_based"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Monotonicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Novelty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Performance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Personalisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Perturbation_based"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Plausibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Pluasability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Relevance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Reliance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Representativeness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Satisfaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Scrutability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Sensitivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Serendipity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Soundness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Transparency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Trust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Truthfulness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Understanding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Usecase_specific"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#User_specific_interaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Validity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#computational_cost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#running_duration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Coherence/_Comprehension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Diversity_(Cugny)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Simplicity/Complexity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#number_of_features(Cugny)"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enables"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#related_to"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Actionability"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Editability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Average_drop"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Reliance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Broadness"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Goodness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Chronology"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Usecase_specific"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Compactness"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Broadness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Completeness"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Broadness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Confidence"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Reliance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Consisitency"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Fidelity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Correctness"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Truthfulness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Curiosity"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#User_specific_interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Editability"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Interactivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Faithfulness"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Perturbation_based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Feasibility"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Understanding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Fidelity"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Understanding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Goodness"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Understanding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Interactivity"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Understanding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Interestingness"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#User_specific_interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Interpretability"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Model_based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Justifiability"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Fidelity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Model_based"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Fidelity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Monotonicity"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Perturbation_based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Novelty"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Usecase_specific"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Performance"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#End_Goal_Target_Impact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Personalisation"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#User_specific_interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Perturbation_based"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Goodness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Plausibility"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Editability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Pluasability"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Usecase_specific"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Relevance"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Usecase_specific"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Reliance"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Fidelity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Representativeness"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Broadness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Satisfaction"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#End_Goal_Target_Impact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Scrutability"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Editability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Sensitivity"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Perturbation_based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Serendipity"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Usecase_specific"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Soundness"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Truthfulness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Transparency"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Model_based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Trust"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#End_Goal_Target_Impact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Truthfulness"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Fidelity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Usecase_specific"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Understanding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#User_specific_interaction"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Interactivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Validity"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Goodness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#computational_cost"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Feasibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#running_duration"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Feasibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Coherence/_Comprehension"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Goodness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Diversity_(Cugny)"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Compactness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Simplicity/Complexity"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Broadness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#number_of_features(Cugny)"/>
+        <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Compactness"/>
+    </SubClassOf>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#enables"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#enables"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#enables"/>
+            <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Fidelity"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#enables"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#enables"/>
+            <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Goodness"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#enables"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#enables"/>
+            <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Interactivity"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#enables"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#enables"/>
+            <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Understanding"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#related_to"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#related_to"/>
+            <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Fidelity"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#enables"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#enables"/>
+            <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#End_Goal_Target_Impact"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#enables"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#enables"/>
+            <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Understanding"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#related_to"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#related_to"/>
+            <Class IRI="http://www.semanticweb.org/wsma9/ontologies/2023/5/untitled-ontology-12#Trust"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#enables</IRI>
+        <Literal>char enables prop</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#related_to</IRI>
+        <Literal>ambiguous relation</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

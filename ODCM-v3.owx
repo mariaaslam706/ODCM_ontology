@@ -1,0 +1,816 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/wsma9/ontologies/2023/6/odcmv3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/wsma9/ontologies/2023/6/odcmv3">
+    <Prefix name="" IRI="http://www.semanticweb.org/wsma9/ontologies/2023/6/odcmv3/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>An ontology for the XAI ODCM (v3)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal>This is the Ontology Driven Conceptual Model (ODCM) that shows relationship between Characteristics (Char), Properties (Prop), Qulaities (Qual), and subsequent End-Goal-Target-Imapcts (EGTI) of Explainability in AI or XAI.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Actionability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Average_Drop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Broadness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Case-Based"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compactness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Completeness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computational_Costs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confidence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consistency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Correctness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Curiosity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diversity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EGTI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Editability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feasibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fidelity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goodness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interactive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interestingness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interpretability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Justifiability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Model_based_Explanation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monotonocity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Novelty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Number_of_Features"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Performance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personalisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perturbation_based"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plausability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relevance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reliance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Representativeness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Run_Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Satisfaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scrutability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensitivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serendipity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soundness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Task_Performance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transparency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Truthfulness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Understanding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Performance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Specific"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Validity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coherence/Comprehension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Simplicity/Complexity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsOptionalTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enables"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enhances"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOption"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCharOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPropOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSubCharOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#feature_attribution"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#feature_importance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#feature_significance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#input_attribution"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#input_importance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#input_significance"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Actionability"/>
+        <Class IRI="#Editability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Average_Drop"/>
+        <Class IRI="#Reliance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Broadness"/>
+        <Class IRI="#Goodness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Case-Based"/>
+        <Class IRI="#Understanding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chronology"/>
+        <Class IRI="#Case-Based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compactness"/>
+        <Class IRI="#Broadness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Completeness"/>
+        <Class IRI="#Broadness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computational_Costs"/>
+        <Class IRI="#Feasibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confidence"/>
+        <Class IRI="#Reliance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consistency"/>
+        <Class IRI="#Fidelity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Correctness"/>
+        <Class IRI="#Truthfulness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Curiosity"/>
+        <Class IRI="#User_Specific"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diversity"/>
+        <Class IRI="#Compactness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Editability"/>
+        <Class IRI="#Interactive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feasibility"/>
+        <Class IRI="#Understanding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fidelity"/>
+        <Class IRI="#Understanding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goodness"/>
+        <Class IRI="#Understanding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interactive"/>
+        <Class IRI="#Understanding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interestingness"/>
+        <Class IRI="#User_Specific"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interpretability"/>
+        <Class IRI="#Model_based_Explanation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Justifiability"/>
+        <Class IRI="#Fidelity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Model_based_Explanation"/>
+        <Class IRI="#Fidelity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monotonocity"/>
+        <Class IRI="#Perturbation_based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Novelty"/>
+        <Class IRI="#Case-Based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Number_of_Features"/>
+        <Class IRI="#Compactness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Performance"/>
+        <Class IRI="#EGTI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personalisation"/>
+        <Class IRI="#User_Specific"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perturbation_based"/>
+        <Class IRI="#Goodness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plausability"/>
+        <Class IRI="#Case-Based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relevance"/>
+        <Class IRI="#Case-Based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reliance"/>
+        <Class IRI="#Fidelity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Representativeness"/>
+        <Class IRI="#Broadness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Run_Time"/>
+        <Class IRI="#Feasibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Satisfaction"/>
+        <Class IRI="#EGTI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scrutability"/>
+        <Class IRI="#Editability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensitivity"/>
+        <Class IRI="#Perturbation_based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serendipity"/>
+        <Class IRI="#Case-Based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soundness"/>
+        <Class IRI="#Truthfulness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Task_Performance"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transparency"/>
+        <Class IRI="#Model_based_Explanation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trust"/>
+        <Class IRI="#EGTI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Truthfulness"/>
+        <Class IRI="#Fidelity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Performance"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Specific"/>
+        <Class IRI="#Interactive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validity"/>
+        <Class IRI="#Goodness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coherence/Comprehension"/>
+        <Class IRI="#Goodness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Simplicity/Complexity"/>
+        <Class IRI="#Broadness"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Actionability"/>
+        <Class IRI="#Scrutability"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Average_Drop"/>
+        <Class IRI="#Confidence"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Broadness"/>
+        <Class IRI="#Perturbation_based"/>
+        <Class IRI="#Validity"/>
+        <Class IRI="#Coherence/Comprehension"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Case-Based"/>
+        <Class IRI="#Feasibility"/>
+        <Class IRI="#Fidelity"/>
+        <Class IRI="#Goodness"/>
+        <Class IRI="#Interactive"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Chronology"/>
+        <Class IRI="#Novelty"/>
+        <Class IRI="#Plausability"/>
+        <Class IRI="#Relevance"/>
+        <Class IRI="#Serendipity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Compactness"/>
+        <Class IRI="#Completeness"/>
+        <Class IRI="#Representativeness"/>
+        <Class IRI="#Simplicity/Complexity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Computational_Costs"/>
+        <Class IRI="#Run_Time"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Consistency"/>
+        <Class IRI="#Justifiability"/>
+        <Class IRI="#Model_based_Explanation"/>
+        <Class IRI="#Reliance"/>
+        <Class IRI="#Truthfulness"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Correctness"/>
+        <Class IRI="#Soundness"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Curiosity"/>
+        <Class IRI="#Interestingness"/>
+        <Class IRI="#Personalisation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Diversity"/>
+        <Class IRI="#Number_of_Features"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EGTI"/>
+        <Class IRI="#Understanding"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Editability"/>
+        <Class IRI="#User_Specific"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Interpretability"/>
+        <Class IRI="#Transparency"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Monotonocity"/>
+        <Class IRI="#Sensitivity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Performance"/>
+        <Class IRI="#Satisfaction"/>
+        <Class IRI="#Trust"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Task_Performance"/>
+        <Class IRI="#User_Performance"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Completeness"/>
+        <NamedIndividual IRI="#feature_attribution"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Completeness"/>
+        <NamedIndividual IRI="#feature_importance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Completeness"/>
+        <NamedIndividual IRI="#feature_significance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Completeness"/>
+        <NamedIndividual IRI="#input_attribution"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Completeness"/>
+        <NamedIndividual IRI="#input_importance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Completeness"/>
+        <NamedIndividual IRI="#input_significance"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#feature_attribution"/>
+        <NamedIndividual IRI="#input_attribution"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#feature_importance"/>
+        <NamedIndividual IRI="#input_importance"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#feature_significance"/>
+        <NamedIndividual IRI="#input_significance"/>
+    </SameIndividual>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <NamedIndividual IRI="#feature_attribution"/>
+        <Literal>showsAttributingInput</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <NamedIndividual IRI="#feature_importance"/>
+        <Literal>showsImportantFeature</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <NamedIndividual IRI="#feature_significance"/>
+        <Literal>showsSignificantFeature</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsOptionalTo"/>
+        <Class IRI="#Chronology"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsOptionalTo"/>
+        <Class IRI="#Novelty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsOptionalTo"/>
+        <Class IRI="#Plausability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsOptionalTo"/>
+        <Class IRI="#Relevance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsOptionalTo"/>
+        <Class IRI="#Serendipity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#enables"/>
+        <Class IRI="#Case-Based"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#enables"/>
+        <Class IRI="#Feasibility"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#enables"/>
+        <Class IRI="#Fidelity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#enables"/>
+        <Class IRI="#Goodness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#enables"/>
+        <Class IRI="#Interactive"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#enables"/>
+        <Class IRI="#Understanding"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#enhances"/>
+        <Class IRI="#Interactive"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOption"/>
+        <Class IRI="#Completeness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Actionability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Average_Drop"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Compactness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Completeness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Confidence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Correctness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Curiosity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Interestingness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Interpretability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Monotonocity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Personalisation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Representativeness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Scrutability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Sensitivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Soundness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Transparency"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Simplicity/Complexity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class IRI="#Computational_Costs"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class IRI="#Run_Time"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPropOf"/>
+        <Class IRI="#Broadness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPropOf"/>
+        <Class IRI="#Consistency"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPropOf"/>
+        <Class IRI="#Editability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPropOf"/>
+        <Class IRI="#Justifiability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPropOf"/>
+        <Class IRI="#Model_based_Explanation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPropOf"/>
+        <Class IRI="#Perturbation_based"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPropOf"/>
+        <Class IRI="#Reliance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPropOf"/>
+        <Class IRI="#Truthfulness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPropOf"/>
+        <Class IRI="#User_Specific"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPropOf"/>
+        <Class IRI="#Validity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPropOf"/>
+        <Class IRI="#Coherence/Comprehension"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSubCharOf"/>
+        <Class IRI="#Diversity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSubCharOf"/>
+        <Class IRI="#Number_of_Features"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsOptionalTo"/>
+        <Class IRI="#Case-Based"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#enables"/>
+        <Class IRI="#EGTI"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#enables"/>
+        <Class IRI="#Understanding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#enhances"/>
+        <Class IRI="#Satisfaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#enhances"/>
+        <Class IRI="#Understanding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Broadness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Editability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Model_based_Explanation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Perturbation_based"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Reliance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#Truthfulness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharOf"/>
+        <Class IRI="#User_Specific"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class IRI="#Feasibility"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPropOf"/>
+        <Class IRI="#Fidelity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPropOf"/>
+        <Class IRI="#Goodness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPropOf"/>
+        <Class IRI="#Interactive"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSubCharOf"/>
+        <Class IRI="#Compactness"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <Class IRI="#Completeness"/>
+    </DataPropertyDomain>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#enables</IRI>
+        <Literal>A relationship that defines enablement factor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#enhances</IRI>
+        <Literal>A relationship that defines Enhancement factor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isCharOf</IRI>
+        <Literal>A Characteristic of a Property of XAI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isPartOf</IRI>
+        <Literal>Defines containment factor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isPropOf</IRI>
+        <Literal>Is Property of a Quality of XAI</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
